@@ -1,0 +1,48 @@
+Data Science
+Hadoop
+AWS
+DevOps
+Salesforce
+Python
+Selenium
+C Language
+C++
+Data Structure
+Core Java
+Advanced Java
+Spring
+Hibernate
+Web Services
+Struts
+XML
+C#.NET
+ASP.NET
+SQL Server
+Oracle
+Android
+iPhone
+IoT
+RPA
+Automation Anywhere
+Blue Prism
+Spring Boot
+CRT
+Unix/Linux
+Digital Marketing
+PHP with MySQL
+ASP.NET MVC
+Java Training
+HTML5
+CSS3
+HTML
+JavaScript
+jQuery
+UI UX
+Ui Technologies
+AngularJS
+Angular
+NodeJS
+ReactJS
+Artificial Intelligence
+Apache Spark
+Blockchain

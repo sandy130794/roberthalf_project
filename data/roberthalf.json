@@ -46973,7 +46973,63 @@
         "name": "zip-codes", "pattern": "[0-9]{5}"
       }
     ],
-    "lookup_tables": [],
-    "entity_synonyms": []
+    "lookup_tables": [
+      {
+        "name": "designations",
+        "elements": "data/lookups/designations.txt"
+      },
+      {
+        "name": "locations",
+        "elements": "data/lookups/locations.txt"
+      },
+      {
+        "name": "skills.txt",
+        "elements": "data/lookups/skills.txt"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "Attorney",
+        "synonyms": [
+          "Law Clerk"
+        ]
+      },
+      {
+        "value": "Administrative Generalist",
+        "synonyms": [
+          "Administrative Specialist"
+        ]
+      },
+      {
+        "value": "Community Planning Specialist",
+        "synonyms": [
+          "Community Development Specialist"
+        ]
+      },
+      {
+        "value": "Computer Programmer",
+        "synonyms": [
+          "Computer Analyst"
+        ]
+      },
+      {
+        "value": "Contract Specialist Management Specialist",
+        "synonyms": [
+          "Contract Grants Management Specialist"
+        ]
+      },
+      {
+        "value": "Angular",
+        "synonyms": [
+          "Angular2", "Angular4", "Angular6", "Angular7", "Angular8"
+        ]
+      }
+      {
+        "value": "Customer Acct Mgr",
+        "synonyms": [
+          "Customer Acct Specialist"
+        ]
+      }
+    ]
   }
 }
