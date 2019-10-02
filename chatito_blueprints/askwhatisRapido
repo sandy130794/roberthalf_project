@@ -1,0 +1,25 @@
+%[ask_whatis_rapido]('training': '50')
+    ~[text]
+
+~[text]
+    What is @[rapido]?
+    Who is a @[captain]?
+    Who is a Partner Manager?
+    may i know what is a @[rapido]
+    i would like to know about @[rapido]
+    @[rapido]
+    captain
+    what is the role of a @[captain]
+    i want to know about @[captain] in detail
+    may i know who is a @[captain]
+    tell me about @[captain]
+    what are the roles of the @[captain]
+    what is the role of partner manager
+    partner manager
+
+@[rapido]
+    rapido
+    Rapido
+@[captain]
+    captain
+    Captain

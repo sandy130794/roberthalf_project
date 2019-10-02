@@ -1,0 +1,5488 @@
+{
+    "rasa_nlu_data": {
+        "regex_features": [],
+        "lookup_tables": [
+            {
+                "name": "users",
+                "elements": "data/lookups/users.txt"
+            }
+        ],
+        "entity_synonyms": [],
+        "common_examples": [
+            {
+                "text": "hello",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "good day are you there",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi good day whatsup",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "good day how are you doing",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hello greetings",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi morning how are you doing",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey are you around?",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hello good night how is it going",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hello good afternoon how are you",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hello good night whats up",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey morning how are things going",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "greetings how are things going",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hello good night",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi good morning how is it going",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hello greetings whats up",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "good night whats up",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hello morning sup",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi good night how are you",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "greetings sup",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi good afternoon are you around?",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi good afternoon how is it going",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hello good afternoon",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hello good morning sup",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi morning how are things going",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey good morning sup",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi greetings are you around?",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi good day",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi greetings how are you",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hello good morning are you around",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi morning whats up",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey are you there",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "greetings how is it going",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "good day are you around",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey morning how are you",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hello how is it going",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hello good day how are you doing",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi greetings how is it going",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "good afternoon how are you",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hello good morning how are you",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey good morning how are you",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey good night are you around?",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hello good night how are you doing",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi good afternoon are you around",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi greetings sup",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey good day whats up",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey morning how is it going",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey good night how is it going",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi good day are you around",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "have to go adios",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "farewell thanks",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "goodbye",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "talk to you later adios",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "gtg",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "have to go chao",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "im leaving now chau",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "heading out bye",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "ttyl",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "got to go chau",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "going out farewell",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "farewell",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "thanks ttyl",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "talk to you soon chao",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "thank you goodbye",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "going out chau",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "heading out adieu",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "have to go goodbye",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "goodbye thanks",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "adios",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "thanks adieu",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "have to go farewell",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "heading out goodbye",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "leaving ttyl",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "chao",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "talk to you later bye",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "bye",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "bye thank you",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "thank you ttyl",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "thank you bye",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "bye thanks",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "leaving",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "im leaving now gtg",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "heading out farewell",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "goodbye thank you",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "leaving adieu",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "chau thanks",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "heading out",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "thank you adios",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "got to go adieu",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "got to go gtg",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "leaving chao",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "got to go adios",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "adieu thank you",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "talk to you soon farewell",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "thank you farewell",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "chao thank you",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "gtg thanks",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "talk to you later chau",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "talk to you soon goodbye",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "yes good",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "yes you understood me affirmative",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "right",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "sounds good im ok with that thank you",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "yes sir good",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "right that is right agreed",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "correct i want that yep",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "affirmative plz",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "yep that is right im ok with that",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "affirmative yep",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "im ok with that im ok with that",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "correct affirmative thanks",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "agreed",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "yep affirmative",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "sounds good that is correct yes sir",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "agreed its fine yes sir",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "right good",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "agreed right thanks",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "good",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "yes",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "yes sir its fine sounds good",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "correct you understood me correct",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "right good right",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "yep its fine yes sir",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "its fine yes sir",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "yes sir you understood me affirmative",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "im ok with that that is fine correct",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "right agreed thanks",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "its fine yes",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "agreed affirmative thank you",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "yep that is right agreed",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "right that is what i want correct",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "yes that is right",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "sounds good that is right agreed",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "im ok with that its fine",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "right that is good correct",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "correct",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "yes correct thanks",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "im ok with that agreed",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "sounds good i want that agreed",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "correct that is correct yep",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "sounds good that is what i want im ok with that",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "you understood me agreed",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "yes sir that is what i want affirmative",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "yes that is what i want yes sir",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "that is correct right",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "yes affirmative",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "affirmative yep thank you",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "yes sir that is fine yes sir",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "agreed that is fine correct",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "nope that's not correct",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "that's wrong",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "it's not good",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "don't do that please",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "incorrect",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "pls nope its not ok",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "that's not right",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "nope please dont mean that",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "pls no i don't want that",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "don't do that please its not correct",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "incorrect please its not correct",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "incorrect dont mean that",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "i don't want that",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "no pls that's wrong",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "that's not right that's wrong",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "don't do that pls didnt meant that",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "plz nope its not ok",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "plz don't do that that's not what i want",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "plz incorrect it's not good",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "that's not right pls that's not what i want",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "don't do that pls it's not good",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "please not really that is wrong",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "pls that's not right i don't want that",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "not really plz that is wrong",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "don't do that dont mean that",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "not really plz dont mean that",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "don't do that",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "incorrect pls i don't want that",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "plz no that's not what i want",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "pls nope it's not good",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "dont mean that",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "incorrect its not correct",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "plz that's not right it's not good",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "pls incorrect that's wrong",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "its not ok",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "incorrect please its not ok",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "nope please i don't want that",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "nope please that's not what i want",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "pls that's not right dont mean that",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "not really that's wrong",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "incorrect please that's not what i want",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "don't do that please didnt meant that",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "not really that is wrong",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "please incorrect that's not what i want",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "incorrect please that's not correct",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "no pls didnt meant that",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "not really it's not good",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "plz incorrect that's not correct",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "plz nope that's wrong",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "didnt meant that",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "i am user",
+                "intent": "user_type",
+                "entities": []
+            },
+            {
+                "text": "i am captain",
+                "intent": "user_type",
+                "entities": []
+            },
+            {
+                "text": "i am partner",
+                "intent": "user_type",
+                "entities": []
+            },
+            {
+                "text": "this is user",
+                "intent": "user_type",
+                "entities": []
+            },
+            {
+                "text": "this is captain",
+                "intent": "user_type",
+                "entities": []
+            },
+            {
+                "text": "this is partner",
+                "intent": "user_type",
+                "entities": []
+            },
+            {
+                "text": "Why am I charged a cancellation fee?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "What happens in case of a mishap?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "What happens in case of a medical emergency? Is there any help provided?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "What should I do in case of an accident?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "Female Rider Safety",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "How does the SOS option work?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "Can we trust the Captains?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "How will the passenger pay for the ride?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "How can I pay for my ride?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "How can I refer Captains?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "What is the Partner Referral Program?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "What is the referral program?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "How can I refer my friends to book with Rapido?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "Can I pick up a passenger even if I have luggage with me ?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "I am stuck in traffic. What should I do?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "I accepted the ride but I don’t know where the pick up location is. What should I do?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "I am trying to call the passenger but he is not answering. What should I do?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "How do I get rides through the Rapido Captain App?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "What if I don’t have shower caps and/or my helmet is damaged?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "what are the charges for cancellation?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "how do charge per cancellation?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "what if there is an medical emergency",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "what i have to do if an accident is occured",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "in case if an accident happend what i have to do",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "what is the safety measures for female riders",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "what preventive measures are take for female riders",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "what precaution are taken for female riders",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "is there any option for SOS?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "how SOS works?",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "SOS working process",
+                "intent": "faqs",
+                "entities": []
+            },
+            {
+                "text": "What is the payment structure? How do I get paid?",
+                "intent": "payment_structure",
+                "entities": []
+            },
+            {
+                "text": "What is the payment structure? How will I get paid?",
+                "intent": "payment_structure",
+                "entities": []
+            },
+            {
+                "text": "what is the payment process structure.?",
+                "intent": "payment_structure",
+                "entities": []
+            },
+            {
+                "text": "payment structure",
+                "intent": "payment_structure",
+                "entities": []
+            },
+            {
+                "text": "payment process",
+                "intent": "payment_structure",
+                "entities": []
+            },
+            {
+                "text": "may i know payment structure",
+                "intent": "payment_structure",
+                "entities": []
+            },
+            {
+                "text": "how can i know payment structure",
+                "intent": "payment_structure",
+                "entities": []
+            },
+            {
+                "text": "is there any payment process and how will i paided?",
+                "intent": "payment_structure",
+                "entities": []
+            },
+            {
+                "text": "I want to know payment structure",
+                "intent": "payment_structure",
+                "entities": []
+            },
+            {
+                "text": "what is the process for adding the money to the wallet?",
+                "intent": "wallet",
+                "entities": []
+            },
+            {
+                "text": "may i know how to add money to my wallet?",
+                "intent": "wallet",
+                "entities": []
+            },
+            {
+                "text": "is there any way to add money to the wallet",
+                "intent": "wallet",
+                "entities": []
+            },
+            {
+                "text": "can i know adding money to the wallet",
+                "intent": "wallet",
+                "entities": []
+            },
+            {
+                "text": "tell me how to add money to the wallet",
+                "intent": "wallet",
+                "entities": []
+            },
+            {
+                "text": "i would like to know how to add money to the wallet?",
+                "intent": "wallet",
+                "entities": []
+            },
+            {
+                "text": "how to add money to the wallet so that i can pay directly from the wallet.",
+                "intent": "wallet",
+                "entities": []
+            },
+            {
+                "text": "How can I add money into a wallet?",
+                "intent": "wallet",
+                "entities": []
+            },
+            {
+                "text": "how can I book 4 rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "count",
+                        "start": 15,
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "text": "I want book 5 rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "count",
+                        "start": 12,
+                        "value": "5"
+                    }
+                ]
+            },
+            {
+                "text": "I want 3 rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "count",
+                        "start": 7,
+                        "value": "3"
+                    }
+                ]
+            },
+            {
+                "text": "I want multiple rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "count",
+                        "start": 7,
+                        "value": "multiple"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book ride before 2hours",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 24,
+                        "entity": "time",
+                        "start": 23,
+                        "value": "2"
+                    }
+                ]
+            },
+            {
+                "text": "I want 4 rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "count",
+                        "start": 7,
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book multiple rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 19,
+                        "entity": "count",
+                        "start": 11,
+                        "value": "multiple"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book a ride in 8?",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "time",
+                        "start": 21,
+                        "value": "8"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book 5 rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "count",
+                        "start": 11,
+                        "value": "5"
+                    }
+                ]
+            },
+            {
+                "text": "I want book many rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "count",
+                        "start": 12,
+                        "value": "many"
+                    }
+                ]
+            },
+            {
+                "text": "how can I book 2 rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "count",
+                        "start": 15,
+                        "value": "2"
+                    }
+                ]
+            },
+            {
+                "text": "How Can I book ride",
+                "intent": "booking",
+                "entities": []
+            },
+            {
+                "text": "I want many rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "count",
+                        "start": 7,
+                        "value": "many"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book a ride in 5?",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "time",
+                        "start": 21,
+                        "value": "5"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book more rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "count",
+                        "start": 11,
+                        "value": "more"
+                    }
+                ]
+            },
+            {
+                "text": "I want book 2 rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "count",
+                        "start": 12,
+                        "value": "2"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book multiple rides at the same time?",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 19,
+                        "entity": "count",
+                        "start": 11,
+                        "value": "multiple"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book a ride in 4?",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "time",
+                        "start": 21,
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book ride before 4hours",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 24,
+                        "entity": "time",
+                        "start": 23,
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "text": "I want more rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "count",
+                        "start": 7,
+                        "value": "more"
+                    }
+                ]
+            },
+            {
+                "text": "I want book ride",
+                "intent": "booking",
+                "entities": []
+            },
+            {
+                "text": "Can I book 3 rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "count",
+                        "start": 11,
+                        "value": "3"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book 4 rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "count",
+                        "start": 11,
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book 5 rides at the same time?",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "count",
+                        "start": 11,
+                        "value": "5"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book ride in advance",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 26,
+                        "entity": "time1",
+                        "start": 16,
+                        "value": "in advance"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book a ride in 7?",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "time",
+                        "start": 21,
+                        "value": "7"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book 2 rides at the same time?",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "count",
+                        "start": 11,
+                        "value": "2"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book more rides at the same time?",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "count",
+                        "start": 11,
+                        "value": "more"
+                    }
+                ]
+            },
+            {
+                "text": "how can I book 3 rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "count",
+                        "start": 15,
+                        "value": "3"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book a ride in 9?",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "time",
+                        "start": 21,
+                        "value": "9"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book a ride in 6?",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "time",
+                        "start": 21,
+                        "value": "6"
+                    }
+                ]
+            },
+            {
+                "text": "I want book 4 rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "count",
+                        "start": 12,
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book ride tomorrow",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 24,
+                        "entity": "time1",
+                        "start": 16,
+                        "value": "tomorrow"
+                    }
+                ]
+            },
+            {
+                "text": "I want book multiple rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 20,
+                        "entity": "count",
+                        "start": 12,
+                        "value": "multiple"
+                    }
+                ]
+            },
+            {
+                "text": "how can I book multiple rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 23,
+                        "entity": "count",
+                        "start": 15,
+                        "value": "multiple"
+                    }
+                ]
+            },
+            {
+                "text": "I want book more rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "count",
+                        "start": 12,
+                        "value": "more"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book a ride in 2?",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "time",
+                        "start": 21,
+                        "value": "2"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book 2 rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "count",
+                        "start": 11,
+                        "value": "2"
+                    }
+                ]
+            },
+            {
+                "text": "how can I book 5 rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "count",
+                        "start": 15,
+                        "value": "5"
+                    }
+                ]
+            },
+            {
+                "text": "I want 5 rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "count",
+                        "start": 7,
+                        "value": "5"
+                    }
+                ]
+            },
+            {
+                "text": "i want to book a ride day after tomorrow",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 40,
+                        "entity": "time1",
+                        "start": 22,
+                        "value": "day after tomorrow"
+                    }
+                ]
+            },
+            {
+                "text": "I want 2 rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "count",
+                        "start": 7,
+                        "value": "2"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book ride before 3hours",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 24,
+                        "entity": "time",
+                        "start": 23,
+                        "value": "3"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book 3 rides at the same time?",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "count",
+                        "start": 11,
+                        "value": "3"
+                    }
+                ]
+            },
+            {
+                "text": "How can I book a Rapido?",
+                "intent": "booking",
+                "entities": []
+            },
+            {
+                "text": "Can I book ride before 8hours",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 24,
+                        "entity": "time",
+                        "start": 23,
+                        "value": "8"
+                    }
+                ]
+            },
+            {
+                "text": "how can I book many rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 19,
+                        "entity": "count",
+                        "start": 15,
+                        "value": "many"
+                    }
+                ]
+            },
+            {
+                "text": "how can I book more rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 19,
+                        "entity": "count",
+                        "start": 15,
+                        "value": "more"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book 4 rides at the same time?",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "count",
+                        "start": 11,
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "text": "Can I book many rides",
+                "intent": "booking",
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "count",
+                        "start": 11,
+                        "value": "many"
+                    }
+                ]
+            },
+            {
+                "text": "i am looking for promo codes",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 28,
+                        "entity": "type",
+                        "start": 17,
+                        "value": "promo codes"
+                    }
+                ]
+            },
+            {
+                "text": "is there any offers?",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 19,
+                        "entity": "type",
+                        "start": 13,
+                        "value": "offers"
+                    }
+                ]
+            },
+            {
+                "text": "i am looking promo code",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 23,
+                        "entity": "type",
+                        "start": 13,
+                        "value": "promo code"
+                    }
+                ]
+            },
+            {
+                "text": "i am looking offers",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 19,
+                        "entity": "type",
+                        "start": 13,
+                        "value": "offers"
+                    }
+                ]
+            },
+            {
+                "text": "I wantpromo codes for the ride",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 17,
+                        "entity": "type",
+                        "start": 6,
+                        "value": "promo codes"
+                    }
+                ]
+            },
+            {
+                "text": "Where can I find the ongoing offers?",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 35,
+                        "entity": "type",
+                        "start": 29,
+                        "value": "offers"
+                    }
+                ]
+            },
+            {
+                "text": "How do I use the promocode?",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 26,
+                        "entity": "type",
+                        "start": 17,
+                        "value": "promocode"
+                    }
+                ]
+            },
+            {
+                "text": "I wantpromo code for the ride",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "type",
+                        "start": 6,
+                        "value": "promo code"
+                    }
+                ]
+            },
+            {
+                "text": "where can i find promo code",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 27,
+                        "entity": "type",
+                        "start": 17,
+                        "value": "promo code"
+                    }
+                ]
+            },
+            {
+                "text": "is there any offer?",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 18,
+                        "entity": "type",
+                        "start": 13,
+                        "value": "offer"
+                    }
+                ]
+            },
+            {
+                "text": "Where can I find the ongoing promo codes?",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 40,
+                        "entity": "type",
+                        "start": 29,
+                        "value": "promo codes"
+                    }
+                ]
+            },
+            {
+                "text": "I wantoffer for the ride",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "type",
+                        "start": 6,
+                        "value": "offer"
+                    }
+                ]
+            },
+            {
+                "text": "i am searching for promo codes",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 30,
+                        "entity": "type",
+                        "start": 19,
+                        "value": "promo codes"
+                    }
+                ]
+            },
+            {
+                "text": "from where i can promo codes",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 28,
+                        "entity": "type",
+                        "start": 17,
+                        "value": "promo codes"
+                    }
+                ]
+            },
+            {
+                "text": "i am looking for promo code",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 27,
+                        "entity": "type",
+                        "start": 17,
+                        "value": "promo code"
+                    }
+                ]
+            },
+            {
+                "text": "how to get offer on rides",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "type",
+                        "start": 11,
+                        "value": "offer"
+                    }
+                ]
+            },
+            {
+                "text": "How can I stay updated with the latest promo codes?",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 50,
+                        "entity": "type",
+                        "start": 39,
+                        "value": "promo codes"
+                    }
+                ]
+            },
+            {
+                "text": "How do I use the promo code?",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 27,
+                        "entity": "type",
+                        "start": 17,
+                        "value": "promo code"
+                    }
+                ]
+            },
+            {
+                "text": "i am searching for promo code",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "type",
+                        "start": 19,
+                        "value": "promo code"
+                    }
+                ]
+            },
+            {
+                "text": "how to get promo codes on rides",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "type",
+                        "start": 11,
+                        "value": "promo codes"
+                    }
+                ]
+            },
+            {
+                "text": "from where i can offer",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "type",
+                        "start": 17,
+                        "value": "offer"
+                    }
+                ]
+            },
+            {
+                "text": "i am searching for promocode",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 28,
+                        "entity": "type",
+                        "start": 19,
+                        "value": "promocode"
+                    }
+                ]
+            },
+            {
+                "text": "i am looking for offer",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "type",
+                        "start": 17,
+                        "value": "offer"
+                    }
+                ]
+            },
+            {
+                "text": "is there any promocode?",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "type",
+                        "start": 13,
+                        "value": "promocode"
+                    }
+                ]
+            },
+            {
+                "text": "i am looking offer",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 18,
+                        "entity": "type",
+                        "start": 13,
+                        "value": "offer"
+                    }
+                ]
+            },
+            {
+                "text": "Where can I find the ongoing offer?",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 34,
+                        "entity": "type",
+                        "start": 29,
+                        "value": "offer"
+                    }
+                ]
+            },
+            {
+                "text": "i am looking for offers",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 23,
+                        "entity": "type",
+                        "start": 17,
+                        "value": "offers"
+                    }
+                ]
+            },
+            {
+                "text": "where can i find promo codes",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 28,
+                        "entity": "type",
+                        "start": 17,
+                        "value": "promo codes"
+                    }
+                ]
+            },
+            {
+                "text": "How do I use the offer?",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "type",
+                        "start": 17,
+                        "value": "offer"
+                    }
+                ]
+            },
+            {
+                "text": "i am searching for offers",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 25,
+                        "entity": "type",
+                        "start": 19,
+                        "value": "offers"
+                    }
+                ]
+            },
+            {
+                "text": "is there any promo codes?",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 24,
+                        "entity": "type",
+                        "start": 13,
+                        "value": "promo codes"
+                    }
+                ]
+            },
+            {
+                "text": "How can I stay updated with the latest promocode?",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 48,
+                        "entity": "type",
+                        "start": 39,
+                        "value": "promocode"
+                    }
+                ]
+            },
+            {
+                "text": "How can I apply promocode",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 25,
+                        "entity": "type",
+                        "start": 16,
+                        "value": "promocode"
+                    }
+                ]
+            },
+            {
+                "text": "How can I apply offer",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 21,
+                        "entity": "type",
+                        "start": 16,
+                        "value": "offer"
+                    }
+                ]
+            },
+            {
+                "text": "How do I use the promo codes?",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 28,
+                        "entity": "type",
+                        "start": 17,
+                        "value": "promo codes"
+                    }
+                ]
+            },
+            {
+                "text": "from where i can promo code",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 27,
+                        "entity": "type",
+                        "start": 17,
+                        "value": "promo code"
+                    }
+                ]
+            },
+            {
+                "text": "How can I apply promo codes",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 27,
+                        "entity": "type",
+                        "start": 16,
+                        "value": "promo codes"
+                    }
+                ]
+            },
+            {
+                "text": "how to get promo code on rides",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 21,
+                        "entity": "type",
+                        "start": 11,
+                        "value": "promo code"
+                    }
+                ]
+            },
+            {
+                "text": "how to get offers on rides",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 17,
+                        "entity": "type",
+                        "start": 11,
+                        "value": "offers"
+                    }
+                ]
+            },
+            {
+                "text": "i am searching for offer",
+                "intent": "promo",
+                "entities": [
+                    {
+                        "end": 24,
+                        "entity": "type",
+                        "start": 19,
+                        "value": "offer"
+                    }
+                ]
+            },
+            {
+                "text": "I am not getting rides",
+                "intent": "no_rides",
+                "entities": []
+            },
+            {
+                "text": "what is the reason that i am not getting rides",
+                "intent": "no_rides",
+                "entities": []
+            },
+            {
+                "text": "i didn't get any rides",
+                "intent": "no_rides",
+                "entities": []
+            },
+            {
+                "text": "not getting rides",
+                "intent": "no_rides",
+                "entities": []
+            },
+            {
+                "text": "i am unable to get rides",
+                "intent": "no_rides",
+                "entities": []
+            },
+            {
+                "text": "last few days i am not getting any rides",
+                "intent": "no_rides",
+                "entities": []
+            },
+            {
+                "text": "why i am not getting rides.",
+                "intent": "no_rides",
+                "entities": []
+            },
+            {
+                "text": "Why am I not getting ride requests?",
+                "intent": "no_rides",
+                "entities": []
+            },
+            {
+                "text": "How can I cancel a booked ride?",
+                "intent": "cancel",
+                "entities": []
+            },
+            {
+                "text": "I accepted the ride but I need to cancel due to an emergency?",
+                "intent": "cancel",
+                "entities": []
+            },
+            {
+                "text": "I want to cancel my ride",
+                "intent": "cancel",
+                "entities": []
+            },
+            {
+                "text": "what is the process for cancelling a ride",
+                "intent": "cancel",
+                "entities": []
+            },
+            {
+                "text": "cancel the ride",
+                "intent": "cancel",
+                "entities": []
+            },
+            {
+                "text": "i am not feeling well. so, i want to cancel my ride",
+                "intent": "cancel",
+                "entities": []
+            },
+            {
+                "text": "I need to give feedback?",
+                "intent": "feedback",
+                "entities": []
+            },
+            {
+                "text": "I want to give feedback?",
+                "intent": "feedback",
+                "entities": []
+            },
+            {
+                "text": "how can i give feedback?",
+                "intent": "feedback",
+                "entities": []
+            },
+            {
+                "text": "how to give a feedback?",
+                "intent": "feedback",
+                "entities": []
+            },
+            {
+                "text": "where i have to give feedback?",
+                "intent": "feedback",
+                "entities": []
+            },
+            {
+                "text": "i would like to give feedback for the ride",
+                "intent": "feedback",
+                "entities": []
+            },
+            {
+                "text": "may i know how to give a feedback for the ride",
+                "intent": "feedback",
+                "entities": []
+            },
+            {
+                "text": "i want to know how to give a feedback for a ride",
+                "intent": "feedback",
+                "entities": []
+            },
+            {
+                "text": "How do I rate my ride?",
+                "intent": "feedback",
+                "entities": []
+            },
+            {
+                "text": "present Rapido operating cities",
+                "intent": "location",
+                "entities": []
+            },
+            {
+                "text": "list of cities that rapido is currently present",
+                "intent": "location",
+                "entities": []
+            },
+            {
+                "text": "I want to know that currently rapido operational cities",
+                "intent": "location",
+                "entities": []
+            },
+            {
+                "text": "what are the cities that rapido is currently operational?",
+                "intent": "location",
+                "entities": []
+            },
+            {
+                "text": "In which cities is Rapido currently operational?",
+                "intent": "location",
+                "entities": []
+            },
+            {
+                "text": "What is rapido?",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "rapido",
+                        "start": 8,
+                        "value": "rapido"
+                    }
+                ]
+            },
+            {
+                "text": "What is Rapido?",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "rapido",
+                        "start": 8,
+                        "value": "Rapido"
+                    }
+                ]
+            },
+            {
+                "text": "Who is a captain?",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "captain",
+                        "start": 9,
+                        "value": "captain"
+                    }
+                ]
+            },
+            {
+                "text": "Who is a Captain?",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "captain",
+                        "start": 9,
+                        "value": "Captain"
+                    }
+                ]
+            },
+            {
+                "text": "Who is a Partner Manager?",
+                "intent": "ask_whatis_rapido",
+                "entities": []
+            },
+            {
+                "text": "may i know what is a rapido",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 27,
+                        "entity": "rapido",
+                        "start": 21,
+                        "value": "rapido"
+                    }
+                ]
+            },
+            {
+                "text": "may i know what is a Rapido",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 27,
+                        "entity": "rapido",
+                        "start": 21,
+                        "value": "Rapido"
+                    }
+                ]
+            },
+            {
+                "text": "i would like to know about rapido",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 33,
+                        "entity": "rapido",
+                        "start": 27,
+                        "value": "rapido"
+                    }
+                ]
+            },
+            {
+                "text": "i would like to know about Rapido",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 33,
+                        "entity": "rapido",
+                        "start": 27,
+                        "value": "Rapido"
+                    }
+                ]
+            },
+            {
+                "text": "rapido",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "rapido",
+                        "start": 0,
+                        "value": "rapido"
+                    }
+                ]
+            },
+            {
+                "text": "Rapido",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "rapido",
+                        "start": 0,
+                        "value": "Rapido"
+                    }
+                ]
+            },
+            {
+                "text": "captain",
+                "intent": "ask_whatis_rapido",
+                "entities": []
+            },
+            {
+                "text": "what is the role of a captain",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "captain",
+                        "start": 22,
+                        "value": "captain"
+                    }
+                ]
+            },
+            {
+                "text": "what is the role of a Captain",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "captain",
+                        "start": 22,
+                        "value": "Captain"
+                    }
+                ]
+            },
+            {
+                "text": "i want to know about captain in detail",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 28,
+                        "entity": "captain",
+                        "start": 21,
+                        "value": "captain"
+                    }
+                ]
+            },
+            {
+                "text": "i want to know about Captain in detail",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 28,
+                        "entity": "captain",
+                        "start": 21,
+                        "value": "Captain"
+                    }
+                ]
+            },
+            {
+                "text": "may i know who is a captain",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 27,
+                        "entity": "captain",
+                        "start": 20,
+                        "value": "captain"
+                    }
+                ]
+            },
+            {
+                "text": "may i know who is a Captain",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 27,
+                        "entity": "captain",
+                        "start": 20,
+                        "value": "Captain"
+                    }
+                ]
+            },
+            {
+                "text": "tell me about captain",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 21,
+                        "entity": "captain",
+                        "start": 14,
+                        "value": "captain"
+                    }
+                ]
+            },
+            {
+                "text": "tell me about Captain",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 21,
+                        "entity": "captain",
+                        "start": 14,
+                        "value": "Captain"
+                    }
+                ]
+            },
+            {
+                "text": "what are the roles of the captain",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 33,
+                        "entity": "captain",
+                        "start": 26,
+                        "value": "captain"
+                    }
+                ]
+            },
+            {
+                "text": "what are the roles of the Captain",
+                "intent": "ask_whatis_rapido",
+                "entities": [
+                    {
+                        "end": 33,
+                        "entity": "captain",
+                        "start": 26,
+                        "value": "Captain"
+                    }
+                ]
+            },
+            {
+                "text": "what is the role of partner manager",
+                "intent": "ask_whatis_rapido",
+                "entities": []
+            },
+            {
+                "text": "partner manager",
+                "intent": "ask_whatis_rapido",
+                "entities": []
+            },
+            {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "I think you cant help me"
+              },
+              {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "and that's it?"
+              },
+              {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "and you call yourself bot company? pff"
+              },
+              {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "do you get anything?"
+              },
+              {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "hm i don't think you can do what i want"
+              },
+              {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "i guess you can't help me then"
+              },
+              {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "nothing else?"
+              },
+              {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "ok i guess you can't help me"
+              },
+              {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "ok then you cant help me"
+              },
+              {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "ok, but that doesnt help me"
+              },
+              {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "stop"
+              },
+              {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "stop go back"
+              },
+              {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "that was shit, you're not helping"
+              },
+              {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "that's not what i want"
+              },
+              {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "this conversation is not really helpful"
+              },
+              {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "this is leading to nothing"
+              },
+              {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "you can't help me"
+              },
+              {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "you can't help me with what i need"
+              },
+              {
+                "entities": [],
+                "intent": "canthelp",
+                "text": "you cannot help me with what I want"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "Ar you a bot ?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "Are you a chat bot?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "Are you the bot?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "Hi there, are you the bot?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "So I'm here Today to ask one very simple question, what are you ?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "What are you ?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you rapido bot?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you a BOT"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you a rapido bot?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you a Skynet ?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you a bot"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you a bot ?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you a bot?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you a chatbot"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you a real bot?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you a robot"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you ai"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you artificial"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you artificial intelligence"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you bot"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you bot?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you real"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you real lol"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you really a bot"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you robot"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "are you sure that you're a bot?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "cuz you are a bot"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "i guess you are a chatbot"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "oh are you chatbot?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "tell me, are you a bot?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "what are you, a bot?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "you are a robot"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "you are ai"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "you are chatbot"
+              },
+              {
+                "entities": [],
+                "intent": "ask_isbot",
+                "text": "you're a bot"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "Can you tell me my name?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "Can you tell me what I am called?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "Do I have a name?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "Do I have a name? What is it?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "Do you know my name?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "Do you know what my name is?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "Explain my name to me."
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "I have a name, what is it?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "I'd like to know my name"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "I'd like to know what my name is"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "Inform me what my name is"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "May i know my name?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "Please let me know what my name is"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "Say my name."
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "Tell me my name"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "Tell me my name."
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "What am I called?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "What could be my name?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "What did my parents name me?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "What do I call myself?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "What do my colleagues call me?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "What do people call me?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "What does everyone call me?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "What else do people call me?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "What exactly is my name?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "What is my first name?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "What is my full name?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "What is my name?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "What is the name I was given?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "What name do I go by?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "What name should I recognize for myself?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "What was I named?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "What would be the name on my tombstone?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "can you tell me my name?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "what is my name?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whatismyname",
+                "text": "what's my name?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "Can you communicate in any other languages?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "Do you know any other languages?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "Do you speak any other languages?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "How many languages do you know?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "In what languages are you fluent enough?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "In which languages are you fluent?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "In which languages can you speak?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "Speak any other languages?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "What are the languages you can speak?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "What do you speak?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "What languages are you fluent in?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "What languages can you communicate in?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "What languages can you converse in?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "What languages can you use?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "What languages do you know how to use?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "What languages do you know?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "What languages do you speak?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "Which languages are you familiar with?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "Which languages do you speak?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "are you bilingual?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "are you multilingual?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "do you speak any other languages?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "tell me some languages you know?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "what else do you know besides English?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "what foreign languages are you fluent in?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "what foreign languages do you know?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "what languages are you comfortable speaking at?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "what languages are you familiar with?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "what languages are you good at speaking?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "what languages do you know?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "what languages you are well versed ?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "what languages you can be comfortable speaking?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "what languages you can handle well?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "what languages you can speak ?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "what languages you know?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_languagesbot",
+                "text": "what languages you prefer more speaking at?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "Are there any meteorological changes that I need to be aware of?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "Are we in for a scorcher?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "Beautiful day, isn't it?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "Can we expect any thunderstorms?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "Do you have good weather?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "How is the weather today?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "How is the weather?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "Is it hot or cold?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "Is it humid out there today?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "Is it quite breezy outside?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "Is it raining?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "Looks like a beautiful day hey?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "Nice day out today?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "What is the temperature today?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "What is the weather at your place?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "What is the weather for tomorrow?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "What's it like out there?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "What's the weather forecast?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "What's the weather like?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "Will I require my raincoat today?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "Will the skies be clear today?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "Will we build a snowman today?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "how is the weather in berlin?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "how's the weather in berlin"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "how's the weather?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "hows the weather in bot world"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "is it sunny"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "is the sun out where you are?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "is the sun out where zou are?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "what\"s the weather"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "what's the weather like where you are?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "what's the weather today?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "whats the weather in berlin?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_weather",
+                "text": "whats the weather like tomorrow"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "By what means were you made?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "By what method were you fashioned?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "Can you explain how you were created?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "Can you give me an idea as to how you were created?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "Can you say how you were constructed?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "Do you know how you were built?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "Do you know how you were made?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "How did they build you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "How did they create you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "How did they make you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "How did you come into being?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "How did you come to be?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "How exactly were you devised?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "How exactly were you made?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "How were you built?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "How were you conceived?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "How were you constructed?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "How were you devised?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "How were you formed?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "How were you made into who you are?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "How were you made?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "How were you set up?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "I want to know how you were formed"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "I'd like to know how you were created"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "I'd like to know how you were put together?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "In what way were you shaped?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "In which manner were you devised?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "Let me know how you were made exactly"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "Specify how you were created?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "Tell me how you were made?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "What process was used to build you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "What process was used to create you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "What was the process for making you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "You originated through what means?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "in what way were you made?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howbuild",
+                "text": "so how were you made?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "Do you have friends the same age as you, if so, how old are they?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "How long have you been alive?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "How long have you been around?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "How long have you occupied the earth?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "How many candles were on your last birthday cake?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "How many years have you been alive?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "How many years have you lived?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "How old were you on your last birthday?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "How old will you be on your next birthday?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "Tell me your day, month and year of birth."
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "What is your age?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "What is your birthdate?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "What was your age on your last birthday?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "What will be your age on your next birthday?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "What year were you born?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "Whats your age?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "When do you celebrate your day of birth?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "and you are how many years old?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "can you tell me your age?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "do you know how old you are?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "how about your age"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "how many years old are you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "how old were you on your last birthday?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "how old were you when you celebrated your last birthday?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "how old will you be this year?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "how old?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "tell me your age?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "what age are you"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "what age were you when you celebrated your last birthday?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "what is your birthday?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "what is your exact age?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "what year were you born?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "what's your age?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "whats your age?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "whats your birth year?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "when is your birthday?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_howold",
+                "text": "when were you born?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "I want to know who you are"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "are you a bot?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "hi! what's your name?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "what are you called?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "what's your name"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "what's your name bot"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "whats ur name"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "who am i speaking with"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "who am i talking to"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "who are u?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "who are y"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "who are you"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "who are you and what do you want from me"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "who are you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "who is it?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "who is talking?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "who is this"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "who is this?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "who r u"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "who speaks?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "who talks?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoisit",
+                "text": "yes but who are you in your heart"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "May I ask who invented you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "Who built you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "Who created you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "Who designed you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "Who fabricated you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "Who generated you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "Who is the legal owner of you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "Who is your creator?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "Who is your programmer?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "Who made you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "Who modeled you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "Who owns you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "Who produced you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "Who thought to make you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "Who went through the trouble of setting you up?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "Who's your boss?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "Who's your builder?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "and who built u?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "can you share your boss with me?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "how were you made?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "i want to get to know your owner"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "i want to know the company which designed you"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "i want to know the company which generated you"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "i want to know the company which invented you"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "i want to know who invented you"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "please tell me the company who created you"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "please tell me who created you"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "tell me more about your creators"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "tell me more about your founders"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "where were you made?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "which company brought you into existence?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "which company created you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "which company invented you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "who build yoi"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "who built you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "who created you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "who do you work for?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "who had the idea to build you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "who had the idea to generate you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "who had the idea to make you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "who is behind all this?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "who is your boss tell me"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "who is your boss?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "who is your creator?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "who made you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_builder",
+                "text": "why were you made?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "Can you tell me who I am?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "Can you tell me who am I?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "Do you know who I am?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "Do you know who am I?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "How can I determine who I am?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "How can I determine who am I?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "Okay who am I?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "Shall i know who am i?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "Tell me who I am."
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "Tell me who I am?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "Tell me who am I?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "WHo am I"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "Who am I?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "Who could I be?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "can you tell me what I am?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "can you tell me what my identity is?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "can you tell me who I am?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "tell me what my identity is?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "tell me who I am?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "what's my identity?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "who am i"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "who are I ?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_whoami",
+                "text": "who may i ?"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "I don't want to give it to you"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "I'm not giving you my email address"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "I'm not going to give it to you"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "NEIN"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "No, not really."
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "absolutely not"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "decline"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "definitely not"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "deny"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "i decline"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "i don't think so"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "i don't want either of those"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "i don't want to"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "i guess it means - no"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "i'm afraid not"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "i'm not sure"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "nah"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "nah not for me"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "nah thanks"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "nein"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "neither of these"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "never"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "never mind"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "nevermind"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "no"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "no I haven't decided yet if I want to sign up"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "no and no again"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "no go"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "no i can't"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "no i don't accept"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "no ma'am"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "no sir"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "no sorry"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "no thanks"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "no way"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "no you did it wrong"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "no!!!!"
+              },
+              {
+                "entities": [],
+                "intent": "deny",
+                "text": "not really"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "Do you know where you come from?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "From where did you come?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "So where are you from"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "What area are you from?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "What citizenship do you lay claim to?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "What city do you claim to for your birth?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "What city were you born in?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "What country were you born in?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "What is your birthplace?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "What is your heritage?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "What is your origin?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "What is your root?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "What location are you from?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "What state were you born in?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "What's the name of the place you came from?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "Where are you?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "Where are your origins?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "Where are your roots?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "Where did you come from?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "Where did you grow up?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "Where did you originate?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "Where do you come from?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "Where do you consider home?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "Where from?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "Where were you at before you were here?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "Where were you born?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "You were conceived in what location?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "are you from around here?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "what country are you from?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "where are you from?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "where are your parents from?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "where did you come from?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "where did you grow up?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "where did you spend your youth?"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "where do you live"
+              },
+              {
+                "entities": [],
+                "intent": "ask_wherefrom",
+                "text": "where's your home town?"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "Cool. Thanks"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "Thank you"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "Thank you so much"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "Thanks"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "Thanks bot"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "Thanks for that"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "Thanks!"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "amazing, thanks"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "cheers"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "cheers bro"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "cool thank you"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "cool thanks"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "cool, thanks"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "great thanks"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "ok thanks!"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "perfect thank you"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "thank you"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "thanks"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "thanks a bunch for everything"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "thanks a lot"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "thanks for forum link, I'll check it out"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "thanks for the help"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "thanks this is great news"
+              },
+              {
+                "entities": [],
+                "intent": "thank",
+                "text": "thanks!"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "But you're an english site :("
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "Can I ask you questions first?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "Do I have to accept?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "I already told you! I'm a shitmuncher"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "I changed my mind"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "I don't wanna tell the name of my company"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "I like you"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "I want french cuisine"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "I want pizza"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "I'm a shitmuncher"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "Is rapdio really smart?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "Why don’t you answer?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "a tamed mouse will arrive at your doorstep in the next couple of days"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "again?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "and make chicken noises into the phone"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "and your REST API doesn't work"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "are the newsletter worth the subscription?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "are you using rapdio?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "are you vegan"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "better than you"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "bots are bad"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "but I just told you that :("
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "can i be shown a gluten free restaurant"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "can we keep chatting?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "can you help me to build a bot"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "can you help me with the docs?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "can you help me with your docs"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "can you help me with your docs?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "can you learn from our conversation?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "can you tell me how to build a bot?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "common, just try"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "did i break you"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "do you have a phone number?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "do you sell vacuum robots?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "do you want to marry me?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "give me food"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "go back"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "hang on let me find it"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "hey little mama let em whisper in your ear"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "hey, I contacted you a couple of days ago but didn't get any response, any news?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "how are akela's cats doing?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "how are the kids"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "how come?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "i am hungry"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "i can't deal with your request"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "i do not care how are you"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "i don't care!!!!"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "i dont like bots"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "i hate you"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "i immediately need help with implementing the coolest bot you can imagine"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "i told you already"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "i wanna party"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "i want a french restaurant"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "i want a non dripping ice cream"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "i want food"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "i want more of you in my life!"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "i want pizza"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "i want pizza!!"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "i want to buy a roomba for my grandson"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "i want to eat"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "i will tame a mouse for you"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "is barbara still married to you"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "is it a wasteland full of broken robot parts?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "is that any of your business"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "isn't the newsletter just spam?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "it's a pity"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "kannst du auch deutsch?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "lol"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "neither"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "no stop"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "oh my god, not again!"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "oh wait i gave you my work email address can i change it?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "personal or work?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "please help with my ice cream it's dripping"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "please hurry, i have deadline in two weeks to deliver the bot it is for very big company"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "really? you're so touchy?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "restaurant"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "restaurants"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "shit bot"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "shitmuncher"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "show me a picture of a chicken"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "silly bot"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "someone call the police i think the bot died"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "sorry, i cannot rephrase"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "stop it, i do not care!!!"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "talk to me"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "tell me a joke"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "that link doesn't work!"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "the one that is better than you"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "this is a really frustrating experience"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "udo, I want to marry you"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "what else?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "what's your wife doing this weekend"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "what?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "where do you live?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "who are the engineers at rapido?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "who are they?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "who is your favourite robot?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "who will anser my email?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "why do you need that?"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "you already have that"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "you are a badass bot!"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "you are a stupid bot"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "you are annoying"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "you suck"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "you will know it from the single red rose it carries between its teeth"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "you're a loser lmao"
+              },
+              {
+                "entities": [],
+                "intent": "out_of_scope",
+                "text": "you're rather dull"
+              },
+              {
+                "entities": [],
+                "intent": "how_to_get_started",
+                "text": "WHAT IS IT"
+              },
+              {
+                "entities": [],
+                "intent": "how_to_get_started",
+                "text": "can you guide me through rapido"
+            },
+            {
+                "entities": [],
+                "intent": "how_to_get_started",
+                "text": "give me some information on rapido"
+            },
+            {
+                "entities": [],
+                "intent": "how_to_get_started",
+                "text": "how about rapido"
+            },
+            {
+                "entities": [],
+                "intent": "how_to_get_started",
+                "text": "what is an rapido"
+            },
+            {
+                "entities": [],
+                "intent": "how_to_get_started",
+                "text": "how do I use rapido"
+            },
+            {
+                "entities": [],
+                "intent": "how_to_get_started",
+                "text": "how do i use rapido"
+            },
+            {
+                "entities": [],
+                "intent": "how_to_get_started",
+                "text": "how to rapido works"
+            },
+            {
+                "entities": [],
+                "intent": "how_to_get_started",
+                "text": "how to start with rapido"
+            },
+            {
+                "entities": [],
+                "intent": "how_to_get_started",
+                "text": "how to start with it"
+            },
+            {
+                "entities": [],
+                "intent": "how_to_get_started",
+                "text": "i want to learn about rapido"
+            },
+            {
+                "entities": [],
+                "intent": "how_to_get_started",
+                "text": "i want to use rapido"
+            },
+            {
+                "entities": [],
+                "intent": "how_to_get_started",
+                "text": "i want to use"
+            },
+            {
+                "entities": [],
+                "intent": "how_to_get_started",
+                "text": "so, how do I use rapido?"
+            },
+            {
+                "entities": [],
+                "intent": "how_to_get_started",
+                "text": "tell me about rapido"
+            },
+            {
+                "entities": [],
+                "intent": "how_to_get_started",
+                "text": "what can I do with rapido?"
+            },
+            {
+                "entities": [],
+                "intent": "how_to_get_started",
+                "text": "what is rapido"
+            },
+            {
+                "entities": [],
+                "intent": "how_to_get_started",
+                "text": "what is this rapido thing?"
+            },
+            {
+                "entities": [],
+                "inent": "how_to_get_started",
+                "text": "What are the prerequisites to add a captain?"
+            }
+        ]
+    }
+}

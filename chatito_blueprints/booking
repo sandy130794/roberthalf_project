@@ -1,0 +1,39 @@
+%[booking]('training': '50')
+    ~[text]
+
+~[text]
+    Can I book @[count] rides at the same time?
+    Can I book a ride in @[time]?
+    How can I book a Rapido?
+    I want book @[count] rides
+    how can I book @[count] rides
+    I want @[count] rides
+    Can I book @[count] rides
+    I want book ride
+    How Can I book ride
+    Can I book ride @[time1]
+    i want to book a ride @[time1]
+    Can I book ride before @[time]hours
+
+@[count]
+    multiple
+    many
+    more
+    2
+    3
+    4
+    5
+
+@[time]
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+@[time1]
+    tomorrow
+    day after tomorrow
+    in advance
